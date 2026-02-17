@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ========================= HEADER / NAVBAR ========================= -->
+    <header class="header" id="home">
+      <nav class="nav glass">
+        <div class="nav-inner">
+          <a href="#home" class="logo">
+            <!-- <span class="logo-mark">&lt;/&gt;</span> -->
+            <span class="logo-text">My Portfolio</span>
+          </a>
+
+          <!-- Mobile nav toggle (CSS-only) -->
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link ">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link ">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- ========================= HERO SECTION ========================= -->
+      <section class="hero section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="hero-eyebrow">Creative Developer • Problem Solver</p>
+            <h1 class="hero-title">
+              Hi, I’m <span class="accent">Smruti</span> —<br />
+              a <span class="accent">Creative Developer</span>
+            </h1>
+            <p class="hero-subtitle">
+              Future-ready developer building today with code, curiosity, and consistency.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-aside">
+            <div class="hero-orbit">
+              <div class="hero-orbit-dot dot-1"></div>
+              <div class="hero-orbit-dot dot-2"></div>
+              <div class="hero-orbit-dot dot-3"></div>
+            </div>
+            <div class="hero-badge glass">
+              <p class="hero-badge-title">Open to Opportunities</p>
+              <p class="hero-badge-subtitle">Remote • Hybrid • On-site</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- ========================= ABOUT SECTION ========================= -->
+      <section id="about" class="section about">
+        <div class="container about-grid">
+          <div class="about-media">
+            <div class="profile-frame">
+              <div class="profile-glow"></div>
+              <img
+                src="abt'pic.png"
+                alt="Portrait of Smruti, Creative Developer"
+                class="profile-image"
+              />
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-tagline">Curious mind, clean code, crafted experiences.</p>
+            <p class="about-text">
+              I’m a <span class="accent">developer</span> who loves building digital experiences
+              that feel <span class="accent">fast</span>, <span class="accent">thoughtful</span>,
+              and <span class="accent">visually refined</span>. From low-level problem solving to
+              high-level product thinking, I care about every layer of the stack.
+            </p>
+            <p class="about-text">
+              My work blends <span class="accent">performance</span>, strong
+              <span class="accent">fundamentals</span> in languages like Java, Python, C, and C++,
+              and a keen eye for <span class="accent">development</span>. 
+            </p>
+            <p class="about-text">
+              When I’m not coding, I’m exploring new tools, refining workflows, and learning how to
+              ship <span class="accent">better software</span>—one project at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= PROJECTS SECTION ========================= -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-tagline">
+              A selection of work that highlights my approach to building interfaces and systems.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <article class="project-card project-card-1 glass">
+              <div class="project-overlay">
+                <h3 class="project-title">Nebula Dashboard</h3>
+                <p class="project-description">
+                  A futuristic analytics dashboard with responsive cards, dark theme, and smooth
+                  micro-interactions built with semantic layouts and scalable CSS architecture.
+                </p>
+                <a
+                  href="https://github.com/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+
+            <!-- Project Card 2 -->
+            <article class="project-card project-card-2 glass">
+              <div class="project-overlay">
+                <h3 class="project-title">Aurora Portfolio</h3>
+                <p class="project-description">
+                  A premium developer portfolio concept featuring animated gradients, glassmorphism,
+                  and an accessible, mobile-first layout—crafted with pure HTML &amp; CSS.
+                </p>
+                <a
+                  href="https://github.com/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= SKILLS SECTION ========================= -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Skills &amp; Tooling</h2>
+            <p class="section-tagline">
+              A balance of strong computer science fundamentals and modern front-end craft.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Skill Cards -->
+            <article class="skill-card">
+              <div class="skill-icon">J</div>
+              <h3 class="skill-title">Java</h3>
+              <p class="skill-text">
+                Object-oriented foundations, robust backend logic, and scalable architectures.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">Py</div>
+              <h3 class="skill-title">Python</h3>
+              <p class="skill-text">
+                Rapid prototyping, scripting, and problem solving with clean, readable code.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">C</div>
+              <h3 class="skill-title">C</h3>
+              <p class="skill-text">
+                Low-level understanding, memory management, and performance-focused solutions.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">C++</div>
+              <h3 class="skill-title">C++</h3>
+              <p class="skill-text">
+                Efficient, high-performance code with object-oriented and generic programming.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">&lt; /&gt;</div>
+              <h3 class="skill-title">HTML</h3>
+              <p class="skill-text">
+                Semantic, accessible structures that provide a strong foundation for the UI.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">#</div>
+              <h3 class="skill-title">CSS</h3>
+              <p class="skill-text">
+                Responsive layouts, animations, design systems, and pixel-perfect visual polish.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">G</div>
+              <h3 class="skill-title">Git</h3>
+              <p class="skill-text">
+                Version control workflows, branching strategies, and clean collaboration.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-icon">GH</div>
+              <h3 class="skill-title">GitHub</h3>
+              <p class="skill-text">
+                Project hosting, collaboration, and transparent, well-documented repositories.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================= CONTACT / FOOTER ========================= -->
+    <footer id="contact" class="footer">
+      <div class="container footer-content">
+        <div class="footer-top">
+          <h2 class="footer-title">Let’s build something remarkable.</h2>
+          <p class="footer-text">
+            Whether it’s a sleek interface, a complex system, or an idea you’d like to explore,
+            I’d love to hear from you.
+          </p>
+        </div>
+
+        <ul class="footer-socials">
+          <li>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <span class="social-icon">in</span>
+              <span class="social-label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <span class="social-icon">tw</span>
+              <span class="social-label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <span class="social-icon">gh</span>
+              <span class="social-label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:youremail@example.com">
+              <span class="social-icon">@</span>
+              <span class="social-label">Email</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            &copy; <span id="year">2026</span> Smruti. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
